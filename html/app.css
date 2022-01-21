@@ -1,0 +1,105 @@
+.text-center {
+    text-align: center;
+}
+
+.text-blue {
+    color: blue;
+}
+
+#submitButton {
+    background: rgba(167, 204, 4, 0.541);
+}
+
+[for="email"] {
+    font-weight: bold;
+}
+
+.highlight {
+    background: yellow;
+}
+
+input, label, button, .display-block {
+    display: block;
+}
+
+.blue{
+    position: relative;
+    background-color: blue;
+    height: 100px; 
+    width: 100px;
+}
+
+.red{
+    position: absolute;
+    background-color: red;
+    height: 5em;
+    width: 5em;
+}
+
+.border-yellow {
+    border: 5px solid goldenrod;
+    box-sizing: border-box;
+}
+
+.purple{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    margin: 1em
+}
+
+.black{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    font-family: 'lato';
+    margin: 0;
+
+}
+
+input, label{
+    display: block;
+}
+
+main {
+    margin-left: 3em;
+}
+
+button {
+    margin: 1em 0 2em 0;
+    padding: 0 1em 0 1em;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline overline line-through;
+    text-align: center;
+    color: red;
+
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+form{
+    padding: 1em;
+    margin:0 auto;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px 1px black;
+    background: url(https://th.bing.com/th/id/R.9b54b2dcde9c6688366cb8990a569016?rik=9FrGdbrqyWjpBQ&pid=ImgRaw&r=0);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white
+}
+
+span{
+    color: blue;
+}
